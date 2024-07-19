@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-const PORT = 1337;
+const PORT = 4000;
 
 connectToDatabase();
 
