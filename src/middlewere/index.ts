@@ -3,7 +3,7 @@ import { NextFunction, Request, Response } from 'express';
 import User from "../models/user-model";
 
 export interface AuthRequest extends Request {
-    user: string;
+    user?: string;
 }
 
 export const authenticationMiddlewere = async (
